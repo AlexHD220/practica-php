@@ -4,7 +4,7 @@
 
 - Clonar repositorio
 - Instalar paquetes:
-  - `cd practica-php-*`
+  - `cd practica-php`
   - `composer install`
 
 ## Testing

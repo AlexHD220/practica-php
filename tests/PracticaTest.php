@@ -39,7 +39,7 @@ final class PracticaTest extends TestCase
                     'pass' => 'password',
                     'comentario' => '',
                     'ciudad' => 'Guadalajara',
-                    'interes' => '1',
+                    'interes' => '1', // <-- como la variable puede o no recibir datos, podemo sagregarla o borrarla
                 ]
             ]);
 
