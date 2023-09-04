@@ -1,0 +1,203 @@
+
+/*Selectores Tag*/
+
+h1 {font-family: cursive; font-size: 300% }
+h2 {font-family: Arial;}
+p{font-family: Verdana; line-height:1.5em;}
+
+section{
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+table{
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+thead td:nth-child(1) {width: 27%;}
+thead td:nth-child(2) {width: 33%;}
+thead td:nth-child(3) {width: 40%;}
+
+
+img{
+	padding-top:  15px;
+}
+
+td,th{
+	font-family: Verdana;
+  border: black 2px solid;
+  padding: 15px;
+}
+
+li{
+	font-family: Verdana;
+	line-height:1.5em;
+}
+
+ol{
+	padding-left: 50px;
+}
+
+
+label, button, input{
+	font-family: Verdana; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+
+textarea{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+select{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+legend{
+	font-family: Arial;
+	margin-top: 20px;
+}
+
+
+/* Selectores Class */
+
+.sangria{
+	padding-left: 20px;
+}
+
+.formaBoton1{
+  background-color: #0000FF;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+
+  margin: 0 5px;
+}
+
+.formaBoton2{
+  background-color: #008f39 ;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.formaBoton3{
+  background-color: purple ;
+  color: white;
+
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+
+  margin: 0 10px;
+}
+
+.margenBoton1{
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.margenBoton2{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.margenBoton3{
+	padding-right: 20px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+	flex-basis: 0;
+	flex-grow: 999;
+	min-width: 60%;
+}
+
+.centrar{
+	text-align: center; 
+}
+
+.justificar{
+  	text-align: justify;
+}
+
+.derecha{
+  	text-align: right;
+}
+
+.margenCuadro{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.bancoImagenes{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+	flex-basis: 0;
+	flex-grow: 999;
+	min-width: 60%;
+
+	margin-top:20px;
+	background-color:gray;
+	border-radius: 20px;
+	padding:10px;
+}
+
+.espMargen{
+	margin: 0 10px;
+}
+
+
+.formulario{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+	flex-basis: 0;
+	flex-grow: 999;
+	min-width: 60%;
+}
+
+
+/* Selectores Class (Ratón) */
+
+.formaBoton1:hover {
+  background-color: #A5ADDE;
+  cursor: pointer;
+}
+
+.formaBoton2:hover {
+  background-color: #AEDCA6;
+  cursor: pointer;
+}
+
+.formaBoton3:hover {
+  background-color: #DCA6D9;
+  cursor: pointer;
+}
+
+.aumentar:hover {
+  height: 200px;
+}
